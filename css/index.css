@@ -221,7 +221,59 @@ div nav a {
     justify-content: center;
 }
 
-.bottom-content {
+.first-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.over-text {}
+
+.pairs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-pair {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 48%;
+    margin-left: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px
+}
+
+.over-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dotted-line {
+    top-border: 1ps dashed li
+}
+
+.final-paragraph {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 20px 0 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.first-heading .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
