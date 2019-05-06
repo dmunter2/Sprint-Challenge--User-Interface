@@ -254,8 +254,51 @@ div nav a {
     justify-content: space-around;
 }
 
+.photo3 {
+    height: 150px;
+    width: 200px;
+    -webkit-animation-name: practice;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    animation-name: practice;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes practice {
+    from {
+        border-color: 1px solid red;
+    }
+    to {
+        border-color: 1px solid yellow;
+    }
+}
+
+
+/*Not sure what I am doing wrong here*/
+
+.photo4a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo4 {
+    height: 150px;
+    width: 900px;
+    margin: 20px 0;
+}
+
 .dotted-line {
     top-border: 1ps dashed li
+}
+
+.paragraph1a {
+    width: 60%;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .final-paragraph {
