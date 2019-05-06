@@ -221,12 +221,12 @@ div nav a {
     justify-content: center;
 }
 
-.first-heading {
+.first-heading-about {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed black;
     margin-bottom: 40px;
+    border-bottom: 1px dashed black;
 }
 
 .over-text {}
@@ -242,10 +242,11 @@ div nav a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 48%;
     margin-left: 15px;
     border-bottom: 1px dashed black;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 46%;
 }
 
 .over-text {
