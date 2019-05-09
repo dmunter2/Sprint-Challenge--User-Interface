@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +165,21 @@ p {
     margin: 0 auto;
 }
 
+div nav {
+    padding: 10px 0 10px 0;
+}
+
+div nav a {
+    text-decoration: none;
+    margin: 0px 35px 0px 50px;
+    color: black;
+    font-size: 13px;
+}
+
+.photo2 {
+    margin: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +191,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,7 +221,103 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.first-heading-about {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.over-text {}
+
+.pairs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-pair {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 46%;
+}
+
+.over-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo3 {
+    height: 150px;
+    width: 200px;
+    -webkit-animation-name: practice;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    animation-name: practice;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes practice {
+    from {
+        border-color: 1px solid red;
+    }
+    to {
+        border-color: 1px solid yellow;
+    }
+}
+
+
+/*Not sure what I am doing wrong here*/
+
+.photo4a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo4 {
+    height: 150px;
+    width: 900px;
+    margin: 20px 0;
+}
+
+.dotted-line {
+    top-border: 1ps dashed li
+}
+
+.paragraph1a {
+    width: 60%;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.final-paragraph {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 20px 0 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.first-heading .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -143,4 +348,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+footer nav {
+    margin-bottom: 25px;
 }
